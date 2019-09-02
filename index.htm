@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mapping Design</title>
+    <link href="package/css/bootstrap.css" rel="stylesheet" />
+    <link href="package/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="package/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="package/css/custom.css" rel="stylesheet" />
+    <script src="package/js/jquery-1.11.3.min.js"></script>
+    <script src="package/js/bootstrap.js"></script>
+    <style>
+* {
+     box-sizing: border-box;
+}
+body {
+     margin: 0;
+     font-family: Arial;
+     font-size: 17px;
+    background-image: url(package/project/images/bg/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+        
+      img{
+            padding-left: 30%;
+            padding-right: 30%;
+        width: 100%;
+        }
+        .modal-body{
+            padding: 20px;
+            text-align: justify;
+        }
+    </style>
+        
+        
+</head>
+
+<body ondblclick="openFullscreen()">
+       <!----- 
+    -->
+    <nav class="navbar navbar-mytheme navbar-static-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Computer Based Mapping Strategy</a> </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2" >
+                <div class="page-header">
+                    <h1  style="color: #fff">Computer Based Mapping Strategy</h1> </div>
+                <div class="dashboard" >
+                    <ul>
+                        <li ><a href="package/concepts.htm"><i class="fa fa-5x fa-sitemap"></i>Concept Mapping</a></li>
+                        <li><a href="package/mind.htm"><i class="fa fa-5x fa-window-restore"></i>Mind Mapping</a></li>
+                        <li><a href="#objective" data-toggle="modal"><i class="fa fa-5x fa-dot-circle-o"></i>Objectives</a></li>
+                        <li><a href="#about_cbms" data-toggle="modal"><i class="fa fa-5x fa-info-circle"></i>About Package</a></li>
+                        <li><a href="#works" data-toggle="modal"><i class="fa fa-5x fa-question-circle"></i>Get Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="help" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header mytheme">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 style="color: #fff"><i class="fa fa-question-circle"></i> Computer Based Mapping Strategy || Help</h3> </div>
+                <div class="modal-body">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Get Support <span class="caret"></span> </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#works" data-toggle="modal">How it works</a></li>
+                        <li><a href="#">Tools used</a></li>
+                        <li><a href="#faq" data-toggle="modal" >Frequently asked questions</a></li>
+                        <li><a href="#">How to get support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header mytheme">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3> <i class="fa fa-info-circle"></i> Computer Based Mapping Strategy || About</h3> </div>
+                <div class="modal-body"> </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-----------modal section start------------------------->
+        <div id="about_cbms" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header mytheme">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3> <i class="fa fa-info-circle"></i> Computer Based Mapping Strategy || About</h3> </div>
+                <div class="modal-body"> 
+                
+
+<p>Computer-based concept map is a computerized graphical representation of number of concepts. The Concepts are usually enclosed in circles or boxes, and linking words or phrases linking two concepts to indicate the relationship between the concepts. Computer-based mind map on the other hand is a computerized graphic organizer of ideas and a visible drawing that indicates what happens in the process of storing information in brain. Mind map involves a unique combination of imagery, color and visual spatial arrangement.</p>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+     <!----------------Works----------------->
+    <div id="works" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header mytheme">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3> <i class="fa fa-info-circle"></i> How It Works</h3> </div>
+               
+               
+                <div class="modal-body"> 
+                 <h3>Concept Mapping:</h3>
+                <h5>This tabs, the user will be able to access</h5>
+                <ul style="list-style: circle">
+                    <li>The objectives</li>
+                    <li>Lesson 1</li>
+                    <li>Lesson 2</li>
+                    <li>Lesson 3</li>
+                    <li>Home</li>
+                </ul>
+                 <img src="package/project/images/writeup/concept_mapping.JPG">
+                <p>This home button will take the user back to the home page <img src="package/project/images/writeup/home%20button.JPG" width="20px" height="50px" style="width: 100px; height: 100px;"> </p>
+                <p>This is the first element that will appear on the page.</p>
+                <p><img src="package/project/images/writeup/lesson%201_1.JPG" width="200" height="100"></p>
+                <p>By clicking on the &nbsp;&ldquo;<strong>+</strong>&rdquo; allows the user to access the child nodes from the parent node.</p>
+                <p>By clicking on the&nbsp; &ldquo;<strong>-</strong>&ldquo; allows the user to hide the child nodes under the parent node.</p>
+                <p>The Arrow bellow signifies the link nodes. This nodes connect the parent nodes to the child node. The nodes are movable and responsive.</p> <img src="package/project/images/writeup/linkconcept.JPG" width="250" height="100"> <img src="package/project/images/writeup/linkmind.JPG" width="250" height="100">
+ 
+                <p>Users can <strong>ZOOM IN</strong> on the elements using CTRL and (+) for windows users and CMD and (+) for Mac users, user can also <strong>ZOOM OUT</strong> on the elements using CTRL and (-) for windows users and CMD and (-) for Mac users.</p>
+                <p>Users can also toggle to the Right, Left, Up, down using the arrows on the keyboard</p> <img src="package/project/images/writeup/keyboard.jpg" width="250" height="100">
+                <p>&nbsp;</p>
+                <p>At the top right corner of the page, there is a magnifying glass that helps users to Zoom IN on elements and nodes.</p>
+                <img src="package/project/images/writeup/magnify.JPG">
+                    
+                    <h3> Full screen mode</h3>
+                    <p>User can toggle the app to full screen mode by pressing f11 on the computer system keyboard or by double clicking on any part of the app where there is no map.<br> For where there is a map you can toggle to full screen mode by double clicking on the map </p>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-----------modal section end----------------------->
+        <!-----------modal section start------------------------->
+        <div id="help_2" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header mytheme">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3> <i class="fa fa-info-circle"></i> Computer Based Mapping Strategy || Help</h3> </div>
+                <div class="modal-body"> 
+            <u><h1>How it works</h1></u>
+<h3>Tree expansion and collapsing process</h3>
+
+<p>To expand the Mapped tree, click on the plus(+) button beneath the node.</p>
+
+<img src="package/img/help/plus.png">
+
+<p>To&nbsp; collapse a section of the map click on the minus(-) button beneath the parent node on the map</p>
+
+<img src="package/img/help/minus.png">
+
+
+<p>We have two different view points.</p>
+
+<ol>
+	<li>Full Screen View(Suppurts Zooming)</li>
+	<li>Responsive Screen View(Autoscales to screen size)</li>
+	
+</ol>
+
+<h3>Zooming of map</h3>
+<P>Use the "plus" and "minus" button to zoom in or zoom out the map respectively.</P>
+      <img src="package/img/help/plus_minus.png">              
+(Not supported in lesson one and two of Concept mapping)
+ <P>Use the navigation button on the keyboard to navigate the map after zooming the map</P>                   
+<img src="package/img/help/direction.png">
+
+<p>There are also two scroll bars at both vertical and horizontal ends of the map, this can be used to navigate through the map for easier view</p>
+
+
+<h3>Magnifying Glass (Supported in concept map only)</h3>
+
+<p>This is used to magnify the text on each node of the map for clearer view.</p>
+
+<p>To activate this click  magnifier icon at the right top handside of the screen.</p>
+                    <img src="package/img/help/magnify.png">
+
+<p>To deactivate this function. Take the magnifier outside the mapping area and click on the  magnifier icon to deactivate.</p>
+                    
+
+<h3>Drag and drop function</h3>
+
+<p>You can drag any of the nodes and dragging it to any other part of the map. </p>
+to drag click any of the nodes and drag to the desired location
+<img src="package/img/help/drag.png" width="100%">
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-----------modal section end----------------------->
+    <div id="objective" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header mytheme">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3> <i class="fa fa-dot-circle-o"></i> Computer Based Mapping Strategy || Objectives</h3> </div>
+                <div class="modal-body">
+                    <h3>After going through this package, you should be able to:</h3>
+                    
+	<ol>
+		<li>Define rates of chemical reactions.</li>
+		<li>To determine the gradient of the curve at given time or instant.</li>
+		<li>Explain the collision theory.</li>
+		<li>Explain nature of reactants as factor that affects rate of a chemical reaction.</li>
+		<li>Explain effect of change in pressure as factor that affects rate of a chemical reaction.</li>
+		<li>Explain effect of change in concentration as factor that affects rate of a chemical reaction</li>
+		<li>Explain effect of light as factor that affects rate of chemical a reaction.</li>
+		<li>Explain effect of change in temperature as factor that affects rate of a chemical reaction</li>
+		<li>Explain effect of surface area as factor that affects rate of a chemical reaction.</li>
+		<li>Define catalyst.</li>
+		<li>States types of catalyst.</li>
+		<li>Draw energy profiles for catalyzed reaction.</li>
+		<li>Explain exothermic reaction.</li>
+		<li>Explain endothermic reaction</li>
+		<li>Explain &Delta;H notation</li>
+		<li>State characteristics of a catalyst</li>
+		<li>State examples of catalyst of some common reactions</li>
+	</ol>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="package/js/full_screen.js"></script>
